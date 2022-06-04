@@ -104,8 +104,12 @@
     padding-bottom: 60px;
 }
 .service-div{
-    display: flex;
+display: flex;
 }
+
 .service-text-h3{
-    display: block;
+    display: flex;
+    flex-direction: inherit;
+    border: 1px solid red;
+    height: 10px;
 }
