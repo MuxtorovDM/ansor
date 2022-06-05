@@ -45,7 +45,6 @@
 .btn-general {
     text-decoration: none;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 12px 24px;
@@ -102,14 +101,46 @@
     justify-content: center;
     padding-top: 120px;
     padding-bottom: 60px;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000000;
 }
 .service-div{
 display: flex;
+justify-content: center;
+align-items: center;
 }
 
+.text{
+    margin-left: 64px;
+}
 .service-text-h3{
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #222222;
+    padding-bottom: 24px;
+}
+.service-text-p{
+    width: 600px;
+    height: 96px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444444;
+}
+.btn-service{
     display: flex;
-    flex-direction: inherit;
-    border: 1px solid red;
-    height: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    
 }
